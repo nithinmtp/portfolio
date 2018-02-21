@@ -1,0 +1,646 @@
+.bodypart{
+    background-color: #5f4d42;
+    width:100%;
+    height: 385px;
+    padding-bottom: 10px;
+  }
+  .profile{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  .image{
+    margin-top: -80px;
+    margin-bottom: 2px;
+    border: 2px solid white;
+    height: 200px;
+    width:160px;
+    align-items: center;
+    border-radius: 120%;
+  }
+  .profile h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .profile h2{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .pes{
+    display: block;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 70px 100px 70px;
+    }
+  
+    @media (max-width: 500px) {
+
+      
+      
+      .image{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        height: 120px;
+        width:100px;
+      }
+      .profile{
+        height: 80px;
+      }
+      .profile h1{
+        margin-top: -20px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+      }
+      .profile h2{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-top:10px ;
+        margin-bottom: 40px;
+        font-size: 15px;
+      
+      }
+      .pes{
+        text-align: center;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size:15px;
+        margin-top:20px;
+        padding-top: 50px;  
+        }
+  }
+  
+  
+  .footer{
+   
+    width:100%;
+    height:50px;
+    background-color: #443730;
+  }
+  .fa-envelope{
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    align-items: right;
+    margin-right: 60%;
+  }
+  .fa-mobile{
+    color: rgb(224, 222, 222);
+    font-size: 20px;
+  }
+ 
+  
+  @media (max-width: 500px){
+    .footer{
+      height: 200px;
+      margin-top: -100px;
+    }
+    .footerdata{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  .fa-envelope{
+
+    line-height: 200px;
+    margin-right: 10px;
+  }
+  .fa-mobile{
+    padding: 0px;
+    margin-top:-80px;
+  }
+
+  
+  
+  }
+  .menu{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #443730;
+    width: 100%;
+  }
+  .buttona-menu{
+    height: 50px;
+    color: white;
+    background-color: #423b35;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+  }
+  @media (max-width: 500px){
+    .buttona-menu{
+      margin: 10px;
+      margin-right: 0px;
+    }
+  }
+  .buttona-menu:hover{
+    background-color: #52433a;
+  }
+  .experience{
+  padding-top: 110px;
+   width:100%;
+   height: 680px;
+   background-color:#f5f5f5;
+  }
+  .expsmall{
+    padding: 50px;
+    background-color:white;
+  }
+  a:link, a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover, a:active {
+    /* background-color:#52433a; */
+  }
+  .exph{
+    color: #464646;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 100px 10px 10px 40px;
+  
+  }
+  .imagemeaww{
+    margin-left: 150px;
+    width: 150px;
+    height:150px;
+  }
+  .position{
+  color: #464646;
+  font-size: 35px;
+  margin: -130px 0px 5px 320px;
+  }
+  .meawwlink:link, .meawwlink:visited{
+    color: #464646;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .namemeaww{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #464646;
+    font-size: 30px;
+    margin: -10px 0px 10px 320px;
+  }
+  .workperiod{
+   color: #464646;
+   font-size: 25px;
+   margin: -10px 0px 10px 320px;
+  }
+  .fa-map-marker{
+    color: #464646;
+    font-size: 20px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -70px;
+  }
+  .meawwp{
+    color:#464646;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 120px;
+    padding: 0 40px  30px 40px;
+  }
+  .meawwpme {
+    color:#464646;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 0 40px  30px 40px;
+  }
+  @media (max-width: 500px){
+    .exph{
+      padding: 0px;
+      padding-bottom: 50px;
+      margin-bottom: 0px;
+      margin-top: 10px;
+      font-size: 40px;
+    }
+    .imagemeaww{
+      margin-left: 15px;
+      margin-top: 20px;
+      width: 50px;
+      height:50px;
+    }
+  .namemeaww{
+      color: #464646;
+      font-size: 23px;
+      font-weight: 400;
+      padding-bottom: 10px;
+      margin: -30px 0px 40px 80px;
+      }
+  .workperiod{
+        color: #464646;
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin: -50px 0px 0px 80px;
+       }
+  .position{
+        font-family: 'Roboto', sans-serif;
+        color: #464646;
+        font-size: 25px;
+        font-weight: 400px;
+        padding-bottom: 10px;
+        margin: -50px 0px 15px 80px;
+      }
+  .experience .fa-map-marker{
+    padding-top: 8px;
+    float: left;
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: 300px;
+    margin-top: -20px;
+  
+      }
+  .meawwp{
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-block-start: 50px;
+        font-size: 20px;
+  }
+  .meawwpme{
+    margin-top: -40px;
+    padding-bottom: 10px;
+    padding-block-start: 50px;
+    font-size: 20px;
+  }
+  }
+  
+  .education{
+    margin-top: 120px;
+    height:640px;
+    width:100%;
+    background-color:#f5f5f5;
+  }
+  .educationa{
+    padding-top: 150px;
+    font-size: 60px;
+    text-align: center;
+     background-color: #f5f5f5;
+    margin-top: -110px;
+    color: #464646;
+  }
+  .fa-graduation-cap{
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 70px;
+  }
+  .dname{
+    margin-left: 290px;
+    margin-top: -60px;
+  }
+  .clgname{
+    padding-top: 8px;
+    margin-left: 290px;
+    margin-top: -20px;
+  }
+  .clgnamea{
+    padding-top: 8px;
+    margin-left: 290px;
+    margin-top: -20px;
+  }
+  
+  @media (max-width: 500px){
+    .education{
+      padding-top: 200px;
+      margin-top: 220px;
+      height:440px;
+      background-color:#f5f5f5;
+    }
+  .educationa{
+    font-size: 40x;
+    margin-top: 50px;
+    padding: 220px 0px  0px 0px;
+  }
+  .fa-graduation-cap{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .dname{
+    margin-left: 65px;
+    margin-top: -35px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .clgname{
+    padding-top: 8px;
+    margin-left: 65px;
+    margin-top: -10px;
+    font-size: 20px;
+  }
+  .education .fa-map-marker{
+    padding-top: 8px;
+    float: left;
+    margin-left: 65px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 300px;
+    margin-top: -10px;
+  }
+  
+  .clgnamea{
+    padding-top: 8px;
+    margin-left: 65px;
+    margin-top: 15px;
+    font-size: 15px;
+   }
+  .education .collegep{
+    margin-top: 0px;
+    font-size: 20px;
+    margin:-30px 20px 0px 20px;
+    padding-block-start: 50px;
+  }
+  }
+  
+  .skillsa{
+    line-height: 100px;
+   margin-top: 150px;
+   padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+     background-color: #f5f5f5;
+    color: #464646;
+  }
+  .skills{
+    height:680px;
+    width:100%;
+    font-size: 60px;
+    background-color:#f5f5f5;
+  }
+  
+  .circlea {
+    margin-top: 60px;
+    height: 100px;
+    width:  100px;
+    margin-left: 90px;
+  }
+  @media (max-width: 500px){
+  
+    .skillsa{
+  
+       padding-top: 350px;
+       font-size: 40px;
+       text-align: center;
+        background-color: #f5f5f5;
+       color: #464646;
+     }
+     .skills{
+       height:680px;
+       width:100%;
+       margin-top: 280px;
+       font-size: 60px;
+       background-color:#f5f5f5;
+     }
+  
+     .circlea {
+       margin-top: 30px;
+       height: 100px;
+       width:  100px;
+       margin-left: 50px;
+     }
+  
+    }
+  
+  .contact{
+    height: 680px;
+    width:100%;
+    background-color:#f5f5f5;
+  }
+  .contacts{
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #464646;
+  }
+  .imageaa{
+    margin-top: -10px;
+    margin-left: 80px;
+    border: 2px solid white;
+    height: 125px;
+    align-items: center;
+    border-radius: 100%;
+  }
+  .contactp{
+    margin-left: 300px;
+    font-size: 40px;
+    margin-top: -110px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  
+  }
+  .contactppe{
+    margin-left: 300px;
+    font-size: 40px;
+    margin-top: -40px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  
+  }
+  .contactppp{
+    margin-top: -170px;
+    display: inline-block;
+    font-size: 30px;
+   margin-left: 300px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  }
+  .meawwlinka:link, .meawwlinka:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .collegep{
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  }
+  .contactno{
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  }
+  .maillinks:link, .maillinks:visited{
+    color: #5f4d42;
+    display: block;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .fixed {
+      position:fixed;
+      width:100%;
+      top:0;
+      left:0;
+  }
+  
+  @media (max-width: 500px){
+    .contact{
+     margin-top:380px;
+    }
+    .contacts{
+      padding-top: 30px;
+      font-size: 40px;
+      margin-left: 0px;
+      text-align: center;
+      background-color: #f5f5f5;
+      color: #464646;
+    }
+    .imageaa{
+      margin-top: 20px;
+      margin-left: 80px;
+      border: 2px solid white;
+      height: 125px;
+      align-items: center;
+      border-radius: 100%;
+    }
+    .contactp{
+      margin-left: 300px;
+      font-size: 40px;
+      margin-top: -110px;
+      font-family: 'Franklin Gothic Medium';
+      color: #5f4d42;
+  
+    }
+    .contactppe{
+      margin-left: 30px;
+      font-size: 25px;
+      margin-top: 150px;
+      font-family: 'Franklin Gothic Medium';
+      color: #5f4d42;
+  
+    }
+    .contactppp{
+      margin-top: 0px;
+      display: inline-block;
+      font-size: 20px;
+      margin-left: 30px;
+      font-family: 'Franklin Gothic Medium';
+      color: #5f4d42;
+    }
+    .meawwlinka:link, .meawwlinka:visited{
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    .collegep{
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 30px;
+      margin-left: 100px;
+      font-family: 'Franklin Gothic Medium';
+      color: #5f4d42;
+    }
+    .contactno{
+      margin-top: 30px;
+      display: inline-block;
+      font-size: 25px;
+      margin-left: 30px;
+      font-family: 'Franklin Gothic Medium';
+      color: #5f4d42;
+    }
+    .maillinks:link, .maillinks:visited{
+      color: #5f4d42;
+      display: block;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    .fixed {
+        position:fixed;
+        width:100%;
+        top:0;
+        left:0;
+    }
+  
+  }
+  
+  
+  
+  
+  .portfolio{
+  height: 680px;
+  }
+  .portname{
+    line-height: 100px;
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #464646;
+  }
+  .fa-product-hunt{
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 70px;
+    padding-bottom:30px;
+  }
+  .porta{
+    font-size: 24px;
+    margin: -20px 100px  20px 237px;
+  
+  }
+  .leopetra:link, .leopetra:visited{
+      color: #464646;
+      background-color: transparent;
+      text-decoration: none;
+      margin-top: -20px;
+      font-size: 50px;
+    }
+    @media (max-width: 500px){
+      .portfolio{
+        margin-top: 300px;
+      }
+      .portname{
+        padding-top: 300px;
+        font-size: 50px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #464646;
+      }
+      .fa-product-hunt{
+        margin-left: 30px;
+        margin-top: 40px;
+        font-size: 30px;
+        padding-bottom:30px;
+      }
+      .porta{
+        font-size: 20px;
+        margin: -20px 100px  30px 37px;
+  
+      }
+      .leopetra:link, .leopetra:visited{
+          color: #464646;
+          background-color: transparent;
+          text-decoration: none;
+          margin-top: -20px;
+          font-size: 25px;
+        }
+  
+  
+    }
+  
