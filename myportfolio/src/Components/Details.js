@@ -82,12 +82,11 @@ class Details extends Component {
               <div className="portfolio" id="portfolio">
                  <h1 className="portname" id="portfolio">Portfolio</h1>
                  <i className="fa fa-product-hunt" aria-hidden="true"></i>
-                 <a className="leopetra" href="https://leopetra.com/"> Leopetra.com </a>
-                 <h1 className="porta">Worked on Leopetra website using react.js.</h1>
-                 <h1 className="porta">Full​ ​Responsive​ ​Website​,​ ​with​ ​admins​ ​having​ ​ability​ ​to update​ ​content​ ​on​ ​server.</h1> 
-                 <h1 className="porta">A fully functional website where one can avail any information about pets and also can book 
-                 Vets, Trainers, Saloon, Restaurants and Event tickets for their pets.</h1> 
-                 
+                 <a className="leopetra" href="https://me.meaww.com/"> Leopetra.com </a>
+                 <h1 className="porta">Worked on Meaww website using react.js.</h1>
+                 <h1 className="porta">Full​ ​Responsive​ and entertainment wedsite for facebook quizzes .</h1> 
+                 <h1 className="porta">js.A fully functional website where users play interesting and funny quizzes based on
+                 facebook provided data.</h1>   
                  <i className="fa fa-product-hunt" aria-hidden="true"></i>
                  <a className="leopetra" href="https://weberhead.herokuapp.com/"> WeberHead Design </a>
                  <h1 className="porta">This is my First website to show front-end work.</h1>
