@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 
 class Header extends Component {
     render() {
@@ -16,15 +16,15 @@ class Header extends Component {
              <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
              <a  href="https://github.com/nithinmtp">
              <i className="fa fa-github fa-2x" aria-hidden="true"> </i></a>
-             <a  href="https://www.facebook.com/nithin.thomasmathew.912">
-             <i className="fa fa-facebook fa-2x fa-2" aria-hidden="true"></i></a>
+             <a  href="https://angel.co/nithin-thomas-mathew">
+             <i className="fa fa-angellist fa-2x fa-2" aria-hidden="true"></i></a>
 
 
 
              </div>
-             <div className="buttons">
+             {/* <div className="buttons">
               <Button  className="buttona" color="#52433a" size="lg"><i className="fa fa-download" aria-hidden="true"></i> DOWNLOAD MY RESUME</Button>{' '}
-             </div>
+             </div> */}
             </header>
             </div>
       );
