@@ -15,7 +15,7 @@ body{
   color: white;
   display: flex;
 }
-.fa-linkedin, .fa-github,.fa-facebook,.fa-whatsapp,.fa-address-book{
+.fa-linkedin, .fa-github,.fa-angellist,.fa-whatsapp,.fa-address-book{
  
   font-size: 25px;
   border: 2px solid rgb(249, 250, 252);
@@ -81,7 +81,7 @@ body{
 
 @media (max-width: 500px) {
    .App-header{
-     height: 200px;
+     height: 160px;
      display: flex;
      flex-direction: column;
    }
