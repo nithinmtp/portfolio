@@ -13,7 +13,7 @@ class Details extends Component {
         <div className="bodypart">
          <div className="profile">
         <img className="image" alt="" src="nithin.jpg"/>
-        <h1> Nithin Thomas Mathew </h1>
+        <h1> Nithin Thomas Mathew  </h1>
         <h2> Front End Developer </h2>
         </div>
            <p className="pes">With 1yr+ hands-on experience developing, releasing, and maintaining large-scale online web-based applications, I have learned to own what I build as I create, test and refine the front end as well as web-services on the server side, following the motto of Discover, design, develop, deploy, debug.
@@ -23,7 +23,7 @@ class Details extends Component {
         
           <div className="menu">
              <Button className="buttona-menu"><a href="#experience">Experiences</a></Button>
-             <Button className="buttona-menu"><a href="#education">Education</a></Button>
+             <Button className="buttona-menu"><a href="#educationa">Education</a></Button>
              <Button className="buttona-menu"><a href="#skills">Skills</a></Button>
              <Button className="buttona-menu"><a href="#portfolio">Portfolio</a></Button>
              <Button className="buttona-menu"><a href="#contact">Contact</a></Button>
@@ -44,15 +44,15 @@ class Details extends Component {
                 <i className="fa fa-map-marker" aria-hidden="true"> Bangalore </i>
                 <p className="meawwp">Meaww is a fully integrated entertainment company and has forayed into all forms of media, from FB quizzes, videos to articles to art and opinion pieces; which cater to all kinds of content needs of our users.
                   </p>
-                     <p className="meawwpme">However, graduating with a Btech degree with no backlogs, I was able to join Meaww as Data Analyst  and I started coding for their product Fb-quizzes. 
+                     <p className="meawwpme">However, graduating with a Btech degree with no backlogs, I was able to join Meaww as Developer and I started coding for their product Fb-quizzes. 
                     After one year later, I am working with development & Social media marketing team.
                     </p>
                   </div>
               </div>
               <div className="education" id="education">
-                <h1 className="educationa">Education</h1>
+                <h1 className="educationa"id="educationa">Education</h1>
                 <i className="fa fa-graduation-cap" aria-hidden="true"></i>
-                <h1 className="dname">Bachelore of technology</h1>
+                <h1 className="dname" >Bachelore of technology</h1>
                 <h2 className="clgname">GISAT</h2>
                 <i className="fa fa-map-marker" aria-hidden="true"> Kerala, India</i>
                 <h3 className="clgnamea">(2012-2016) </h3>
@@ -70,6 +70,7 @@ class Details extends Component {
                  <img className="circlea" alt="" src="css.jpg"/>
                  <img className="circlea" alt="" src="2.png"/>
                  <img className="circlea" alt="" src="react.png"/>
+                 <img className="circlea" alt="" src="jquery.png"/>
                  <img className="circlea" alt="" src="nodejs.png"/>
                  <img className="circlea" alt="" src="4.png"/>
                  <img className="circlea" alt="" src="6.png"/>
@@ -79,14 +80,13 @@ class Details extends Component {
                 </div> 
                </div>
               
-              <div className="portfolio" id="portfolio">
+              <div className="portfolio" >
                  <h1 className="portname" id="portfolio">Portfolio</h1>
                  <i className="fa fa-product-hunt" aria-hidden="true"></i>
-                 <a className="leopetra" href="https://me.meaww.com/"> Leopetra.com </a>
-                 <h1 className="porta">Worked on Meaww website using react.js.</h1>
-                 <h1 className="porta">Full​ ​Responsive​ and entertainment wedsite for facebook quizzes .</h1> 
-                 <h1 className="porta">js.A fully functional website where users play interesting and funny quizzes based on
-                 facebook provided data.</h1>   
+                 <a className="leopetra" href="https://meaww.com/"> Meaww.com </a>
+              
+                 <h1 className="porta">A fully functional website which brings the latest entertainment, political, technology and lifestyle news, along with healthy doses of gossip, trends and humor to a discerning global reader.</h1> 
+                 
                  <i className="fa fa-product-hunt" aria-hidden="true"></i>
                  <a className="leopetra" href="https://weberhead.herokuapp.com/"> WeberHead Design </a>
                  <h1 className="porta">This is my First website to show front-end work.</h1>
@@ -94,7 +94,7 @@ class Details extends Component {
                 
 
               </div>
-              <div className="contact" id="contact">
+              <div className="contact" >
               <h1 className="contacts"> Get in Touch</h1>  
               <img className="imageaa" alt="" src="nithin2.jpg"/>
               <p className="contactp">
@@ -103,12 +103,12 @@ class Details extends Component {
                  I can help with the following:
                 </p>
                
-                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Front-end development with RecatJS, Express, Html, css</h1>
-                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Back-end development with  nodejs </h1><br />
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Front-end development with React js,Express, HTML 5, CSS 3,jQuery</h1>
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Back-end development with  nodejs,MySQL and Mongo DB </h1><br />
                 <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UI development </h1><br />
                
                 <address>
-                  <p className="contactno"> Drop a mail if i can help you 
+                  <p className="contactno" id="contact"> Drop a mail if i can help you 
                       <a className="maillinks" href="mailto:nithinmtp@gmail.com"> nithimtp@gmail.com </a>
                   </p>
                 </address>
